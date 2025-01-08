@@ -12,13 +12,12 @@
 
 .flexRow {
     display: flex;
-    border: 1px dotted rgb(173, 172, 172);
+    height: calc(100vh - 75px);
 }
 
 .flexColumn {
     display: flex;
     flex-direction: column;
-    border: 1px dotted rgb(173, 172, 172);
 }
 
 .box {
@@ -66,5 +65,5 @@
 }
 
 body {
-    margin: 0px
+    margin: 0px;
 }
