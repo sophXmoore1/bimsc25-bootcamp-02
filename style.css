@@ -1,0 +1,54 @@
+.flexRow {
+    display: flex;
+    border: 1px dotted rgb(173, 172, 172);
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted rgb(173, 172, 172);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color:azure;
+    border: 1px solid black;
+    margin: 4px;
+}
+
+.fixedWidthBox {
+    height: 100px;
+    width: 100px;
+    background-color:azure;
+    border: 1px solid black;
+    margin: 4px;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
