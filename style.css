@@ -17,14 +17,6 @@
     margin: 4px;
 }
 
-.fixedWidthBox {
-    height: 100px;
-    width: 100px;
-    background-color:azure;
-    border: 1px solid black;
-    margin: 4px;
-}
-
 .spaceBetween {
     justify-content: space-between;
 }
