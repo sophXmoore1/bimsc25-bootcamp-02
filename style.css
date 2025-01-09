@@ -20,7 +20,7 @@
 #main {
     background-color: rgb(145, 208, 219);
     width: calc(100vw - var(--navBarHeight));
-    padding: 15px;
+    padding: 10px;
 }
 
 
