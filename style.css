@@ -23,6 +23,8 @@
     padding: 15px;
 }
 
+
+
 .flexRow {
     display: flex;
    
@@ -36,6 +38,11 @@
     width: 200px;
     height: 250px;
     margin: 4px;
+}
+
+.menuItem{
+    width 200px;
+    height: 200px;
 }
 
 .flexColumn {
