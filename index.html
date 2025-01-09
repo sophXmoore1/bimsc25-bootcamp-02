@@ -8,36 +8,55 @@
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
 </head>
 <body>
-    <div id="navBar" class="flexRow">
-       <div class="flexRow">
-            <i class="mdi mdi-food-fork-drink"></i>i>
-            <h3>Ninad's Cafe</h3>
-       </div>
 
-        <div class="flexRow">
+    <div id="navBar" class="flexRow spaceBetween alignCenter">
+        
+      <div class="flexRow"> 
+        <i class="mdi mdi-food-fork-drink"></i>
+        <h3 style="margin:0">Sunrise Cafe</h3> 
+      </div>
 
-           <span id="about">about</span>
-           <span id="about">content</span>
-            
-       </div>
-    </div>
-    <div class="flexRow" style="height: calc(100vh - 75px);">
-    <div id="sidebar" class="felxColumn">
+      <div class="flexRow">
+            <span id="about">About</span>
+            <Span id="contact">Contact</Span>
+        </div>
+      
         
-        sidebar
+
     </div>
-    <div id="main">
-    </div id="menuItem">
-    <img src="../assets/breakfastImages/bagel.jpg" width="100%">
-        <h4>
-         Bagel
-        </h4>
-        <p>Bagel with Creame Cheese</p>
-        <P>
-            Pancakes with syrup
-        </P>
+    <div class="flexRow" style="height: calc(100vh - var(--sideBarHeight));">
+
+    <div id="sidebar" class="flexColumn">
+        <span>Breakfast</span>
+        <span>Lunch</span>
+        <span>Dinner</span>
     </div>
-    <div>
-        
+
+
+
+
+    <div id="main" class="flexRow wrap">
+        <div class="menuItem">
+            <img src="../assets/breakfastImages/bagel.jpg" width="200px">
+            <h4>Bagel</h4>
+            <p>Bagel with creame cheese</p>
+        </div>
+
+        <div class="menuItem">
+            <img src="../assets/breakfastImages/pancakes.jpg" width="200px">
+            <h4>Pancake</h4>
+            <p>6 pancake with syrup</p>
+        </div>
+
+        <div class="menuItem">
+            <img src="../assets/breakfastImages/omelet.jpg" width="200px">
+            <h4>omlet</h4>
+            <p>cheese omelet</p>
+        </div>
+    </div>
+
+</div>
+ 
+      
 </body>
 </html>
