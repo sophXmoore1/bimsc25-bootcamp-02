@@ -8,40 +8,55 @@
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
 </head>
 <body>
+
     <div id="navBar" class="flexRow spaceBetween alignCenter">
-        <div class="flexRow">
-            <i class="mdi mdi-food-fork-drink"></i>
-            <h3 style="margin:0">Sophie's Cafe</h3>
+        
+      <div class="flexRow"> 
+        <i class="mdi mdi-food-fork-drink"></i>
+        <h3 style="margin:0">Sunrise Cafe</h3> 
+      </div>
+
+      <div class="flexRow">
+            <span id="about">About</span>
+            <Span id="contact">Contact</Span>
+        </div>
+      
+        
+
+    </div>
+    <div class="flexRow" style="height: calc(100vh - var(--sideBarHeight));">
+
+    <div id="sidebar" class="flexColumn">
+        <span>Breakfast</span>
+        <span>Lunch</span>
+        <span>Dinner</span>
+    </div>
+
+
+
+
+    <div id="main" class="flexRow wrap">
+        <div class="menuItem">
+            <img src="../assets/breakfastImages/bagel.jpg" width="200px">
+            <h4>Bagel</h4>
+            <p>Bagel with creame cheese</p>
         </div>
 
-        <div class="flexRow">
-            <span id="about">About</span>
-            <span id="content">Contact</span>
+        <div class="menuItem">
+            <img src="../assets/breakfastImages/pancakes.jpg" width="200px">
+            <h4>Pancake</h4>
+            <p>6 pancake with syrup</p>
+        </div>
+
+        <div class="menuItem">
+            <img src="../assets/breakfastImages/omelet.jpg" width="200px">
+            <h4>omlet</h4>
+            <p>cheese omelet</p>
         </div>
     </div>
-    <div class="flexRow" style="height: calc(100vh - var(--navBarHeight));">
-        <div id="sidebar" class="flexColumn">
-            <span>Breakfast</span>
-            <span>Lunch</span>
-            <span>Dinner</span>
-        </div>
-        <div id="main" class="flexRow wrap">
-            <div class="menuItem">
-                <img src="../assets/breakfastImages/bagel.jpg" width="100%">
-                <h4>Bagel</h4>
-                <p>Bagel with cream cheese</p>
-            </div>
-            <div class="menuItem">
-                <img src="../assets/breakfastImages/omelet.jpg" width="100%">
-                <h4>Omelet</h4>
-                <p>4 egg omelet with cheese</p>
-            </div>
-            <div class="menuItem">
-                <img src="../assets/breakfastImages/pancakes.jpg" width="100%">
-                <h4>Pancakes</h4>
-                <p>Pancakes with syrup</p>
-            </div>
-        </div>
-    </div>
+
+</div>
+ 
+      
 </body>
 </html>
